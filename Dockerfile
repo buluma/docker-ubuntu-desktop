@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM ubuntu:18
 
 ENV DEBIAN_FRONTEND=noninteractive \
     USER=root
