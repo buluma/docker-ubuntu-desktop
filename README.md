@@ -1,1 +1,13 @@
-# docker-ubuntu-desktop
+# Ubuntu Desktop Dockerfile
+
+Docker container for Ubuntu 17.10 including ubuntu-desktop and vncserver.
+
+How to run
+
+'docker run -p 5901:5901 queeno/ubuntu-desktop'
+
+and then connect to:
+
+vnc://<host>:5901 via VNC client.
+
+The VNC password is password.
